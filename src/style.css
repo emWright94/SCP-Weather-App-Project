@@ -1,0 +1,26 @@
+.weather-app {
+  border-style: solid;
+  padding: 20px;
+  font-family: "Courier New", Courier, monospace;
+}
+.search-form {
+}
+#input-city {
+}
+#submit-button {
+}
+#message {
+  font-size: 20px;
+}
+.city-info {
+}
+#city {
+}
+#day-time {
+}
+.weather-info {
+}
+#temp-weather {
+}
+#humidity-wind {
+}

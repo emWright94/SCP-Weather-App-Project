@@ -3,29 +3,38 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="src/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=sunny"
+    />
+    <link rel="stylesheet" href="src/style.css" />
     <title>Document</title>
   </head>
   <body>
     <div class="weather-app">
-    <div class="search-form"
-    <form>
-        <input type="text" placeholder="Enter a city" id="input-city"></input>
-        <button type="submit" id="sumbit-button">Submit</button>
-    </form>
-   </div>
-     <h1 id="message">
-      No matter the weather, make it a beautiful day!
-    </h1>
-   <div class="city-info">
-    <h1 id="city">Greenwich</h1>
-    <h2 id="day-time">Day Time</h2>
-    </div> 
-    <div class="weather-info">
-    <h3 id="temp-weather">Temp Weather</h3>
-    <h3 id="humidity-wind">humidity wind</h3>
-    </div>
-    <footer>Coded by Em Wright</footer>
+      <div class="search-form">
+        <form>
+          <input type="text" placeholder="Enter a city" id="input-city" />
+          <input type="submit" value="Search" id="search-button" />
+        </form>
+      </div>
+      <h1 id="message">No matter the weather, make it a beautiful day!</h1>
+      <div class="city-info">
+        <h1 id="city">Greenwich</h1>
+        <h2 id="day-time">Friday 11:11</h2>
+      </div>
+      <div class="material-symbols-outlined">sunny</div>
+      <div class="weather-info">
+        <h3 id="temp-weather">69°F <br />Sunny</h3>
+        <h3 id="humidity-wind">50% humidity <br />wind speed 10mph</h3>
+      </div>
+      <footer>Coded by Em Wright</footer>
     </div>
   </body>
 </html>

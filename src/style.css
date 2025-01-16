@@ -11,7 +11,7 @@ body {
   position: relative;
 }
 .weather-app {
-  padding: 20px 40px;
+  padding: 40px 20px;
   max-width: 60%;
   display: block;
   margin: auto;
@@ -22,6 +22,7 @@ body {
 .search-form {
   text-align: center;
   font-size: 16px;
+  margin-bottom: 20px;
 }
 #input-city {
   width: 55%;
@@ -75,12 +76,23 @@ body {
 .weather-info {
   display: flex;
   justify-content: space-around;
+  padding: 20px;
 }
-#temp-weather {
+.temp-weather {
   text-align: center;
+  display: block;
 }
-#humidity-wind {
+.temp {
+}
+.weather {
+}
+.humidity-wind {
   text-align: center;
+  display: block;
+}
+.humidity {
+}
+.wind {
 }
 footer {
   text-align: center;

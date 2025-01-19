@@ -39,6 +39,10 @@ function formatDayTime(date) {
     minutes = `0${minutes}`;
   }
 
+  if (hours > 12) {
+    hours = hours - 12;
+  }
+
   return `${day} ${hours}:${minutes}`;
 }
 

@@ -85,6 +85,12 @@ body {
 .weather {
   margin-top: 30px;
 }
+a:link {
+  color: #212121;
+}
+a:visited {
+  color: #c890a7;
+}
 footer {
   text-align: center;
   font-size: 15px;

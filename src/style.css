@@ -63,7 +63,7 @@ body {
   font-size: 50px;
   margin-bottom: 0;
 }
-#day-time {
+.day-time {
   margin-top: 0;
 }
 .material-symbols-outlined {
@@ -74,25 +74,17 @@ body {
   display: block;
 }
 .weather-info {
-  display: flex;
-  justify-content: space-around;
-  padding: 20px;
-}
-.temp-weather {
   text-align: center;
-  display: block;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  gap: 5px 30px;
 }
-.temp {
+#temp {
+  font-size: 45px;
 }
 .weather {
-}
-.humidity-wind {
-  text-align: center;
-  display: block;
-}
-.humidity {
-}
-.wind {
+  margin-top: 30px;
 }
 footer {
   text-align: center;

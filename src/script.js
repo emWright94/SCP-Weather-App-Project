@@ -8,6 +8,7 @@ function updateWeather(response) {
   let windSpeed = response.data.wind.speed;
   let dayTimeElement = document.querySelector("#day-time");
   let date = new Date(response.data.time * 1000);
+  let emojiElement = document.querySelector("#emoji");
 
   cityElement.innerHTML = response.data.city;
   temperatureElement.innerHTML = Math.round(temperature);
@@ -15,6 +16,7 @@ function updateWeather(response) {
   humidityElement.innerHTML = response.data.temperature.humidity;
   windSpeedElement.innerHTML = Math.round(windSpeed);
   dayTimeElement.innerHTML = formatDayTime(date);
+  emojiElement.innerHTML = `<img src="${response.data.condition.icon_url}" class="weather-emoji"/>`;
 
   console.log(response.data);
 }
@@ -57,5 +59,3 @@ let searchFormElement = document.querySelector("#search-form");
 searchFormElement.addEventListener("submit", handleSearchSubmit);
 
 searchCity("Greenwich");
-
-// wind-mph

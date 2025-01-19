@@ -66,12 +66,11 @@ body {
 .day-time {
   margin-top: 0;
 }
-.material-symbols-outlined {
-  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
-  text-align: center;
-  color: #a35c7a;
-  font-size: 90px;
+.weather-emoji {
+  margin: auto;
   display: block;
+  position: relative;
+  width: 150px;
 }
 .weather-info {
   text-align: center;
